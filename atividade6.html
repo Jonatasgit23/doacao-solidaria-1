@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Doação Solidária</title>
+  <link rel="stylesheet" href="atividade6.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sugeridor de Brinquedos</h1>
+
+    <label>Idade:</label>
+    <input type="number" id="idade" min="2" max="14">
+
+    <label>Sexo:</label>
+    <select id="sexo">
+      <option value="menino">Menino</option>
+      <option value="menina">Menina</option>
+    </select>
+
+    <button onclick="sugerirBrinquedo()">Sugerir Brinquedo</button>
+
+    <p id="resultado">Aguardando sugestão...</p>
+  </div>
+
+  <script src="atividade6.js"></script>
+</body>
+</html>
